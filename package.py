@@ -18,9 +18,7 @@ build_command = "python {root}/rezbuild.py {install}"
 
 
 def commands():
-    env.SGTK_CORE_ROOT = "{root}"
     env.PYTHONPATH.append("{root}/python")
-    env.RV_TK_CORE = "{root}"
     env.SG_CONFIG_FILE = '{root}/config/core/shotgun.yml'
 
 
