@@ -50,7 +50,7 @@ def build(source_path, build_path, install_path, targets):
         src = source_path
 
         # Extra duplicated installation for "tk-core".
-        core_dst_dir = os.path.join(install_path, 'install/core')
+        core_dst_dir = os.path.join(install_path, 'install', 'core')
         if not os.path.isdir(core_dst_dir):
             os.makedirs(core_dst_dir)
 
