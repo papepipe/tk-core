@@ -1,0 +1,9 @@
+# Shotgun Pipeline Toolkit configuration file
+# this file was automatically created
+
+host: https://papepipe3.shotgunstudio.com
+api_script: "Toolkit"
+api_key: "hpNj(fdcetybf9tzccxiyywyb"
+http_proxy: null
+
+# End of file.

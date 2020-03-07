@@ -1,0 +1,10 @@
+# Shotgun Pipeline Toolkit configuration file
+# This file was automatically created
+
+# This file stores the location on disk where this
+# configuration is located. It is needed to ensure
+# that deployment works correctly on all os platforms.
+
+Windows: "%REZ_TK_CORE_ROOT%"
+Darwin: "$REZ_TK_CORE_ROOT"
+Linux: "$REZ_TK_CORE_ROOT"
